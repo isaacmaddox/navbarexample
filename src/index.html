@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.1.0.js"></script>
+    <script src="index.js"></script>
+    <title>Isaac Maddox</title>
+</head>
+
+<body class="dark:bg-gray-900">
+    <nav class="
+        fixed top-0 z-50
+        flex justify-center gap-16 items-center
+        pb-4 pt-16 w-full overflow-hidden
+        bg-white dark:bg-gray-900 border-b-[1px] border-b-transparent
+        transition-all
+    ">
+        <button class="menu
+            absolute left-4 hidden
+            mobile:grid place-items-center
+            w-[65px] h-[65px]
+            bg-transparent
+            rounded-full transition-all
+        ">
+            <svg width="24" height="12" viewBox="0 0 73 36" fill="none" xmlns="http://www.w3.org/2000/svg"
+                class="pointer-events-none">
+                <rect x="0.76001" width="71.48" height="8" rx="4" class="pointer-events-none" />
+                <rect x="0.76001" y="27.4923" width="43.9877" height="8" rx="4" class="pointer-events-none" />
+            </svg>
+        </button>
+        <div
+            class="first-links flex gap-8 items-center mobile:absolute mobile:bottom-2 mobile:left-2 mobile:w-[calc(50%-16px)] mobile:gap-2 mobile:opacity-0 mobile:pointer-events-none transition-all">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+        </div>
+        <a href="#" class="logo">
+            <svg width="65" height="65" viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M19.1661 15C15.0827 38.1345 11.0555 62.869 6 85.7827" class="stroke-black dark:stroke-white"
+                    stroke-width="11.4783" stroke-linecap="round" />
+                <path
+                    d="M28.9565 85.7827C30.3847 83.569 31.0101 79.97 31.7473 77.4849C34.4865 68.2507 36.9238 58.9365 38.9424 49.5162C40.785 40.9177 42.0915 32.2418 43.5663 23.5776C44.0213 20.9042 44.7053 12.8413 44.8745 15.5479C45.9105 32.1249 44.3254 48.8108 45.5737 65.4178C45.6855 66.9048 46.2268 85.6672 50 85.7827C51.0222 85.814 54.3923 79.5438 54.7826 79.087C58.6087 73.3479 59.9292 70.0342 62.4348 65.4178C70.6257 50.3263 76.0707 34.0799 82.181 18.029C82.5065 17.1741 83.4783 13.8946 83.3539 15.399C83.4521 16.0132 83.3607 18.3126 83.3539 18.5252C83.1909 23.6379 82.997 28.7519 82.79 33.8628C82.3559 44.5817 81.3966 55.3618 81.6171 66.0944C81.7329 71.7294 82.029 79.3816 85.7899 84.0711C89.0705 88.1617 92.0098 83.7606 94 81.7704"
+                    class="stroke-black dark:stroke-white" stroke-width="11.4783" stroke-linecap="round" />
+            </svg>
+        </a>
+        <div
+            class="second-links flex gap-8 items-center mobile:absolute mobile:bottom-2 mobile:right-2 mobile:w-[calc(50%-16px)] mobile:gap-2 mobile:opacity-0 mobile:pointer-events-none transition-all">
+            <a href="#">Portfolio</a>
+            <a href="#">Contact</a>
+        </div>
+    </nav>
+    <header>
+        <div class="slide one absolute top-1/2 left-1/2 -translate-1/2">
+            <p>I make <span>unique</span> designs that</p>
+            <p>create <span>interest</span> and promote</p>
+            <p><span>engagement</span></p>
+        </div>
+        <div class="slide two absolute top-1/2 left-1/2 -translate-1/2">
+            <p>Combining <span>design</span> with</p>
+            <p><span>functionality</span> to produce the</p>
+            <p>ultimate <span>experience</span></p>
+        </div>
+        <div class="slide three absolute top-1/2 left-1/2 -translate-1/2">
+            <p>I believe <span>minimalist</span> designs</p>
+            <p>paired with <span>interaction</span></p>
+            <p>can hold the most <span>potential</span></p>
+        </div>
+    </header>
+    <div class="h-[200vh]"></div>
+</body>
+
+</html>
